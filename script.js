@@ -9,7 +9,7 @@ function indexOfIgnoreCase(s1, s2) {
 	let lowerStr = str.toLowerCase();
 	let lowerSubStr = str.toLowerCase();
 
-	return lowerStr.indexOfIgnoreCase(lowerSubStr);
+	return lowerStr.indexOf(lowerSubStr);
 	
 }
 
