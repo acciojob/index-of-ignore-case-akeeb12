@@ -3,7 +3,7 @@ function indexOfIgnoreCase(s1, s2) {
 	let lowerStr = str.toLowerCase();
 	let lowerSubStr = str.toLowerCase();
 
-	return lowerStr.indexOf(lowerSubStr);
+	return lowerStr.indexOfIgnoreCase(lowerSubStr);
 	
 }
 
